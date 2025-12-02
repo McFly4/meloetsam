@@ -14,10 +14,10 @@ export default function HomePage() {
 
 			<div className="absolute inset-0 bg-black/50" />
 
-			<div className="relative z-10 flex flex-col gap-2 justify-center items-center text-white">
-				<h1 className="text-[96px] font-[500] mb-[100px]">30 juin 2026</h1>
-				<p className="text-[64px] font-medium">On se dit oui !</p>
-				<p className="text-[35px] font-medium mb-[40px]">Mélodie & Samuel</p>
+			<div className="relative z-10 flex flex-col gap-2 justify-center items-center text-white px-4">
+				<h1 className="text-[48px] md:text-[96px] font-[500] mb-[50px] md:mb-[100px] text-center">30 juin 2026</h1>
+				<p className="text-[36px] md:text-[64px] font-medium text-center">On se dit oui !</p>
+				<p className="text-[24px] md:text-[35px] font-medium mb-[30px] md:mb-[40px] text-center">Mélodie & Samuel</p>
 				<Button onClick="/rsvp">Confirmer ma présence</Button>
 			</div>
 		</main>

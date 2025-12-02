@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Page(){
 	return (
 		<div>
-			<div className="relative w-full h-[445px]">
+			<div className="relative w-full h-[280px] md:h-[445px]">
 				<Image
 					src="/programme/programHeader.jpg"
 					alt="Programme Header"
@@ -14,13 +14,13 @@ export default function Page(){
 					priority
 				/>
 				<div className="absolute inset-0 bg-black/20" />
-				<h1 className="absolute inset-0 flex items-center justify-center text-[64px] font-medium text-white z-10 font-[family-name:var(--font-playfair-display)]">
+				<h1 className="absolute inset-0 flex items-center justify-center text-[36px] md:text-[64px] font-medium text-white z-10 font-[family-name:var(--font-playfair-display)] px-4">
 					Hébergement
 				</h1>
 			</div>
-			<p className="text-center font-medium font-[family-name:var(--font-playfair-display)] my-[40px]">Vous trouverez de nombreux hébergements <br/> entre 5 et 15 minutes en voiture de la Bona Venture.</p>
+			<p className="text-center font-medium font-[family-name:var(--font-playfair-display)] my-[40px] px-6">Vous trouverez de nombreux hébergements <br className="hidden md:block"/> entre 5 et 15 minutes en voiture de la Bona Venture.</p>
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						La petite ferme
 					</h2>
@@ -42,7 +42,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/1.png"
 						alt="Mairie de Maisons-Alfort"
@@ -53,7 +53,7 @@ export default function Page(){
 			</div>
 
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center order-2">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center lg:order-2">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						Maison desfourgeres et gite
 					</h2>
@@ -74,7 +74,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/2.png"
 						alt="Mairie de Maisons-Alfort"
@@ -85,7 +85,7 @@ export default function Page(){
 			</div>
 
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center ">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center ">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						B&B Les Agapanthes
 					</h2>
@@ -106,7 +106,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/3.png"
 						alt="Mairie de Maisons-Alfort"
@@ -117,7 +117,7 @@ export default function Page(){
 			</div>
 
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center order-2">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center lg:order-2">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						Le moulin de Fourges
 					</h2>
@@ -138,7 +138,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/4.png"
 						alt="Mairie de Maisons-Alfort"
@@ -148,7 +148,7 @@ export default function Page(){
 				</div>
 			</div>
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center ">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center ">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						Logis Hôtel les Bords de Seine
 					</h2>
@@ -169,7 +169,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/5.png"
 						alt="Mairie de Maisons-Alfort"
@@ -179,7 +179,7 @@ export default function Page(){
 				</div>
 			</div>
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center order-2">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center lg:order-2">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						B&B "L'Orée de Giverny"
 					</h2>
@@ -200,7 +200,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/6.png"
 						alt="Mairie de Maisons-Alfort"
@@ -210,7 +210,7 @@ export default function Page(){
 				</div>
 			</div>
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center ">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center ">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						Le Clos de Chaussy
 					</h2>
@@ -231,7 +231,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/7.png"
 						alt="Mairie de Maisons-Alfort"
@@ -241,7 +241,7 @@ export default function Page(){
 				</div>
 			</div>
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center order-2">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center lg:order-2">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						Le Jardin des Plumes
 					</h2>
@@ -262,7 +262,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/8.png"
 						alt="Mairie de Maisons-Alfort"
@@ -272,7 +272,7 @@ export default function Page(){
 				</div>
 			</div>
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center ">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center ">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						La Véthinoise
 					</h2>
@@ -294,7 +294,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/9.png"
 						alt="Mairie de Maisons-Alfort"
@@ -305,7 +305,7 @@ export default function Page(){
 			</div>
 
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center order-2">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center lg:order-2">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						Les Rouges Gorges
 					</h2>
@@ -327,7 +327,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/10.png"
 						alt="Mairie de Maisons-Alfort"
@@ -337,7 +337,7 @@ export default function Page(){
 				</div>
 			</div>
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						La villa de Vienne en Arthies
 					</h2>
@@ -360,7 +360,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/11.png"
 						alt="Mairie de Maisons-Alfort"
@@ -370,7 +370,7 @@ export default function Page(){
 				</div>
 			</div>
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center order-2">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center lg:order-2">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						La Musardine en vexin
 					</h2>
@@ -392,7 +392,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/12.png"
 						alt="Mairie de Maisons-Alfort"
@@ -402,7 +402,7 @@ export default function Page(){
 				</div>
 			</div>
 			<div className="flex flex-col lg:flex-row">
-				<div className="w-full lg:w-2/5 p-12 lg:p-16 flex flex-col justify-center ">
+				<div className="w-full lg:w-2/5 p-[20px] lg:p-16 flex flex-col justify-center ">
 					<h2 className="text-2xl font-medium mb-8 font-[family-name:var(--font-playfair-display)]">
 						Le Château de la Bûcherie
 					</h2>
@@ -424,7 +424,7 @@ export default function Page(){
 					</div>
 				</div>
 
-				<div className="relative w-full lg:w-3/5 h-[600px]">
+				<div className="relative w-full lg:w-3/5 h-[300px] md:h-[600px]">
 					<Image
 						src="/gites/12.png"
 						alt="Mairie de Maisons-Alfort"

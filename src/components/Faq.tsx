@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
@@ -93,7 +94,7 @@ function AccordionItem({ question, answer, isOpen, onClick }: any) {
 				onClick={onClick}
 				className="w-full py-6 px-6 flex justify-between items-center text-left  rounded-lg"
 			>
-        <span className="text-xl font-medium font-[family-name:var(--font-playfair-display)]">
+        <span className="text-base md:text-xl font-medium font-[family-name:var(--font-playfair-display)]">
           {question}
         </span>
 				<ChevronDown
@@ -107,7 +108,7 @@ function AccordionItem({ question, answer, isOpen, onClick }: any) {
 					isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
 				}`}
 			>
-				<div className="px-6 py-6 font-[family-name:var(--font-hind-vadodara)] ">
+				<div className="px-6 py-6 font-[family-name:var(--font-hind-vadodara)] text-sm md:text-base whitespace-pre-line">
 					{answer}
 				</div>
 			</div>
