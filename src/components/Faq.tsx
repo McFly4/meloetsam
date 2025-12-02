@@ -4,34 +4,85 @@ import { ChevronDown } from "lucide-react";
 
 const faqData = [
 	{
-		question: "À quelle heure doit-on arriver ?",
+		question: "Quand devons-nous confirmer notre présence ?\n",
 		answer:
-			"Nous vous demandons d'arriver 15 minutes avant le début de chaque cérémonie. Pour la cérémonie civile, merci d'être présent à 13h45, et pour la cérémonie laïque à 16h45.",
+			"Merci de confirmer votre présence avant le 15/02/25  via le formulaire RSVP sur le site.",
 	},
 	{
-		question: "Y a-t-il un code vestimentaire ?",
+		question: "Comment se rendre à la mairie de Maisons-Alfort et où se garer ?",
 		answer:
-			"Nous vous recommandons une tenue élégante et confortable. Pour les dames, évitez les talons aiguilles si possible car une partie de la réception se déroule en extérieur. La couleur blanche est réservée à la mariée.",
+			"En transport :\n" +
+			"RED D – Arrêt Maisons-Alfort/Alfortville – 5 minutes à pied de la mairie\n" +
+			"Ligne 8 – Arrêt Maisons-Alfort Stade – 13 minutes à pied de la mairie\n" +
+			"\n" +
+			"En voiture, vous pouvez vous garer :\n" +
+			"Parking gratuit  : Parking de la Mairie – avenue de la République  - 5 minutes à pied de la mairie\n" +
+			"Parking Zone Bleue – En face du 63 avenue du Général de Gaulle – 1 minute à pied de la mairie\n" +
+			"Places de stationnement également disponibles dans les rues Jean Jaurès, Maurice Lissac et Louise Lesieur et sur l’avenue de la République.\n",
 	},
 	{
-		question: "Puis-je venir accompagné(e) ?",
+		question: "Comment se rendre à la Bona Venture ?",
 		answer:
-			"Les invitations sont nominatives. Si vous souhaitez venir accompagné(e) et que cela n'est pas précisé sur votre invitation, merci de nous contacter avant de confirmer votre présence.",
+			"En voiture :\n" +
+			"L’idéal est de s’y rendre en voiture. Le trajet depuis la mairie de Maisons-Alfort prend environ 1h30 à 1h45.Vous pouvez également nous retrouver directement à la Bona Venture dès 16h45  si cela vous arrange. Un parking est disponible sur place.\n" +
+			"\n" +
+			"En transport : \n" +
+			"Prendre la ligne J à Saint-Lazare et descendre à l’arrêt Bonnières. (environ 55 minutes de trajet) \n" +
+			"Puis compter 15 minutes en taxi depuis la gare. \n" +
+			"      Pour réserver un taxi, vous pouvez contacter la société Taxis Bonnières sur Seine au  01.30.93.28.81\n",
 	},
 	{
-		question: "Où puis-je me garer ?",
+		question: "La cérémonie civile est-elle obligatoire ?",
 		answer:
-			"Un parking gratuit est disponible au domaine. Des indications seront affichées à l'entrée pour vous guider.",
+			"Pas du tout ! Vous êtes tous conviés, mais si vous préférez, vous pouvez nous rejoindre directement au domaine de la Bona Venture pour la cérémonie laïque qui aura lieu à 17h00.\n",
 	},
 	{
-		question: "Y a-t-il des options d'hébergement à proximité ?",
+		question: "Peut-on venir avec nos enfants ?",
 		answer:
-			"Oui, nous avons réservé des chambres dans plusieurs hôtels à proximité. Vous trouverez la liste complète et les codes de réduction sur la page 'Informations pratiques'.",
+			"Vos enfants sont les bienvenus à notre mariage \n" +
+			"Merci de nous communiquer leur âge afin que nous puissions organiser au mieux. \n" +
+			"Une baby-sitter sera prévue.\n",
 	},
 	{
-		question: "Les enfants sont-ils les bienvenus ?",
+		question: "Y a-t-il un dress code à respecter ?",
 		answer:
-			"Nous aimons beaucoup les enfants, cependant nous avons choisi de célébrer cette journée entre adultes. Nous espérons que vous comprendrez et profiterez de cette soirée pour vous détendre.",
+			"Pas de dress code imposé ! L’essentiel, c’est que vous soyez à l’aise… et que vous puissiez danser jusqu’au bout de la nuit !\n",
+	},
+	{
+		question: "Y aura-t-il des navettes ?",
+		answer:
+			"Il n’y aura pas de navettes mises en place.Le lieu est accessible en voiture, et un parking sera disponible sur place.Pensez à organiser vos trajets à l’avance, et pourquoi pas créer un groupe WhatsApp pour le covoiturage entre invités !\n" +
+			"Si vous souhaitez réserver un taxi, vous pouvez contacter la société Taxis Bonnières sur Seine au  01.30.93.28.81\n",
+	},
+	{
+		question: "Où peut-on dormir à proximité ?\n",
+		answer:
+			"Dans la rubrique « Hébergement », vous trouverez une liste de chambres disponibles, situées entre 5 et15 minutes en voiture de la Bona Venture Venture.",
+	},
+	{
+		question: "Y a-t-il un brunch le lendemain ?\n",
+		answer:
+			"Oui ! Rendez-vous à 11h00 pour un moment convivial. Merci de nous confirmer votre présence.Et si vous souhaitez profiter de la piscine jusqu’à 16h00, pensez à prendre votre maillot de bain !",
+	},
+	{
+		question: "Et si j’ai des allergies ou un régime alimentaire particulier ?\n",
+		answer:
+			"Merci de nous le signaler via le formulaire RSVP. Nous ferons notre possible pour adapter le menu.\n",
+	},
+	{
+		question: "Avez-vous une liste de mariage ?\n",
+		answer:
+			"Votre présence est déjà un immense cadeau !Mais si vous souhaitez participer à notre voyage de noces, une urne sera à votre disposition le jour du mariage.\n",
+	},
+	{
+		question: "Qui contacter en cas de questions le jour J ?\n",
+		answer:
+			"Le 30/06, nous risquons d’être un peu occupés 😊N’hésitez pas à contacter Stéphane au 06.20.00.17.07 ou Cherif au 06.51.06.97.23, nos supers témoins qui seront là pour vous aider !\n",
+	},
+	{
+		question: "J’ai une autre question !\n",
+		answer:
+			"Écrivez-nous à l’adresse meloetsam@gmail.com ou contactez Mélodie au 07.60.87.27.11 et Samuel au 06.29.86.70.89Nous serons ravis de vous aider !\n",
 	},
 ];
 

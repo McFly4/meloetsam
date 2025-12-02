@@ -28,14 +28,14 @@ export default function Page() {
 
 					<div className="space-y-6 mb-8 font-[family-name:var(--font-hind-vadodara)]">
 						<div>
-							<p className="font-medium text-xl mb-1">14h00 CÉRÉMONIE CIVILE</p>
+							<p className="font-medium text-xl mb-1">13h30 CÉRÉMONIE CIVILE</p>
 							<p className="text-[18px]">À la mairie de Maisons-Alfort</p>
 							<p className="text-[18px]">118 avenue du Général de Gaulle</p>
 							<p className="text-[18px]">94700 Maisons-Alfort</p>
 						</div>
 
 						<div>
-							<p className="font-medium text-xl mb-1">17h00 CÉRÉMONIE LAÏQUE</p>
+							<p className="font-medium text-xl mb-1">17h30 CÉRÉMONIE LAÏQUE</p>
 							<p className="text-[18px]">À la Bona Venture, Domaine des Aulnaies</p>
 							<p className="text-[18px]">25 rue des Moulins</p>
 							<p className="text-[18px]">95510 Amérincourt</p>
