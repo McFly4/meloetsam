@@ -35,7 +35,7 @@ const faqData = [
 	{
 		question: "La cérémonie civile est-elle obligatoire ?",
 		answer:
-			"Pas du tout ! Vous êtes tous conviés, mais si vous préférez, vous pouvez nous rejoindre directement au domaine de la Bona Venture pour la cérémonie laïque qui aura lieu à 17h00.\n",
+			"Pas du tout ! Vous êtes tous conviés, mais si vous préférez, vous pouvez nous rejoindre directement au domaine de la Bona Venture pour la cérémonie laïque qui aura lieu à 17h30.\n",
 	},
 	{
 		question: "Peut-on venir avec nos enfants ?",
@@ -52,8 +52,7 @@ const faqData = [
 	{
 		question: "Y aura-t-il des navettes ?",
 		answer:
-			"Il n’y aura pas de navettes mises en place.Le lieu est accessible en voiture, et un parking sera disponible sur place.Pensez à organiser vos trajets à l’avance, et pourquoi pas créer un groupe WhatsApp pour le covoiturage entre invités !\n" +
-			"Si vous souhaitez réserver un taxi, vous pouvez contacter la société Taxis Bonnières sur Seine au  01.30.93.28.81\n",
+			"Une navette peut être organisée entre Bona Venture et votre hébergement, sur demande, entre 00h00 et 02h00. Merci de nous contacter si vous souhaitez en bénéficier.",
 	},
 	{
 		question: "Où peut-on dormir à proximité ?\n",

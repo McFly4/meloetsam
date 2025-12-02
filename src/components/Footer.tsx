@@ -5,7 +5,7 @@ export default function Footer() {
 	return (
 		<div>
 			{/* Section Galerie */}
-			<div className="flex flex-col md:flex-row h-auto md:h-[545px] gap-1">
+			<div className="flex flex-col md:flex-row h-auto md:h-[700px] gap-1">
 				{/* Grande image à gauche */}
 				<div className="relative w-full md:w-[35%] h-[250px] md:h-auto">
 					<Image
@@ -19,7 +19,7 @@ export default function Footer() {
 				{/* Colonne centrale avec 4 images */}
 				<div className="flex flex-col w-full md:w-[30%] gap-1">
 					{/* Ligne du haut */}
-					<div className="flex h-[125px] md:h-1/2 gap-1">
+					<div className="flex h-[300px] md:h-1/2 gap-1">
 						<div className="relative w-[45%]">
 							<Image
 								src="/gallery/photo2.jpg"
@@ -39,7 +39,7 @@ export default function Footer() {
 					</div>
 
 					{/* Ligne du bas */}
-					<div className="flex h-[125px] md:h-1/2 gap-1">
+					<div className="flex h-[300px] md:h-1/2 gap-1">
 						<div className="relative w-[55%]">
 							<Image
 								src="/gallery/photo4.jpg"

@@ -34,7 +34,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 2 Rte des Crêtes, 95510 Chérence</p>
 							<p className="text-[18px]">Téléphone: 01 34 78 23 18/06 18 63 92 48</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="cherence-lapetiteferme.com">cherence-lapetiteferme.com</Link>
+								<Link className="underline" target="_blank" href="https://cherence-lapetiteferme.com">cherence-lapetiteferme.com</Link>
 							</p>
 							<br/><br/>
 							<p className="text-[18px]">à partir de 92€ pour les chambres et 330€ pour le gîte</p>
@@ -66,7 +66,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 4 Rue des Fosses, 27630 Fourges</p>
 							<p className="text-[18px]">Téléphone: NC</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="https://www.booking.com/hotel/fr/au-fil-de-l-eau-vexin-sur-epte.fr.html?chal_t=1764616047825&force_referer=">Booking</Link>
+								<Link className="underline" target="_blank" href="https://https://www.booking.com/hotel/fr/au-fil-de-l-eau-vexin-sur-epte.fr.html?chal_t=1764616047825&force_referer=">Booking</Link>
 							</p>
 							<br/><br/>
 							<p className="text-[18px]">à partir de 109€</p>
@@ -98,7 +98,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 26 Rue de Paris, 27620 Gasny</p>
 							<p className="text-[18px]">Téléphone: 02 77 74 12 62</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="bblesagapanthesgasnygiverny.com">Site Web: bblesagapanthesgasnygiverny.com</Link>
+								<Link className="underline" target="_blank" href="https://bblesagapanthesgasnygiverny.com">Site Web: bblesagapanthesgasnygiverny.com</Link>
 							</p>
 							<br/><br/>
 							<p className="text-[18px]">à partir de 125€</p>
@@ -130,7 +130,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 38 rue du Moulin, 27530 Vexin-sur-Epte</p>
 							<p className="text-[18px]">Téléphone: 02 32 52 12 12</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="moulindefourges.com">Site Web: moulindefourges.com</Link>
+								<Link className="underline" target="_blank" href="https://moulindefourges.com">Site Web: moulindefourges.com</Link>
 							</p>
 							<br/><br/>
 							<p className="text-[18px]">à partir de 90€</p>
@@ -161,7 +161,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 21 Rue du Dr Duval, 95780 La Roche-Guyon</p>
 							<p className="text-[18px]">Téléphone: 01 30 98 32 52</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="logishotel.com">Site Web: logishotel.com</Link>
+								<Link className="underline" target="_blank" href="https://logishotel.com">Site Web: logishotel.com</Link>
 							</p>
 							<br/><br/>
 							<p className="text-[18px]">à partir de 109€</p>
@@ -192,7 +192,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 17 Rue de l'Eau, 78270 Limetz-Villez</p>
 							<p className="text-[18px]">Téléphone: 06 25 99 44 84</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="giverny-rent.fr">Site Web: giverny-rent.fr</Link>
+								<Link className="underline" target="_blank" href="https://giverny-rent.fr">Site Web: giverny-rent.fr</Link>
 							</p>
 							<br/><br/>
 							<p className="text-[18px]">à partir de 160€</p>
@@ -223,7 +223,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 18 Rte de Villers, 95710 Chaussy</p>
 							<p className="text-[18px]">Téléphone: 01 34 21 76 04</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="leclosdechaussy.fr">Site Web: leclosdechaussy.fr</Link>
+								<Link className="underline" target="_blank" href="https://leclosdechaussy.fr">Site Web: leclosdechaussy.fr</Link>
 							</p>
 							<br/><br/>
 							<p className="text-[18px]">à partir de 127€</p>
@@ -254,7 +254,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 1 Rue du Milieu, 27620 Giverny</p>
 							<p className="text-[18px]">Téléphone: 02 32 54 26 35</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="jardindesplumes.fr">Site Web: jardindesplumes.fr</Link>
+								<Link className="underline" target="_blank" href="https://jardindesplumes.fr">Site Web: jardindesplumes.fr</Link>
 							</p>
 							<br/><br/>
 							<p className="text-[18px]">à partir de 119€</p>
@@ -285,7 +285,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 22 Av. des Millonets, 95510 Vétheuil</p>
 							<p className="text-[18px]">Téléphone: 06 60 91 53 67</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="lavethinoise.blogspot.fr">Site Web: lavethinoise.blogspot.fr</Link>
+								<Link className="underline" target="_blank" href="https://lavethinoise.blogspot.fr">Site Web: lavethinoise.blogspot.fr</Link>
 							</p>
 
 							<br/><br/>
@@ -318,7 +318,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 6 rue aux juifs, 27620 Giverny</p>
 							<p className="text-[18px]">Téléphone: 02 32 51 02 96</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="lesrougesgorges.com">Site Web: lesrougesgorges.com</Link>
+								<Link className="underline" target="_blank" href="https://lesrougesgorges.com">Site Web: lesrougesgorges.com</Link>
 							</p>
 
 							<br/><br/>
@@ -351,7 +351,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 23 Chem. de la Vallée, 95510 Vienne-en-Arthies</p>
 							<p className="text-[18px]">Téléphone: 06 03 17 92 31 (Fabienne)</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="villa-de-vienne-en-arthies.fr">Site Web: villa-de-vienne-en-arthies.fr</Link>
+								<Link className="underline" target="_blank" href="https://villa-de-vienne-en-arthies.fr">Site Web: villa-de-vienne-en-arthies.fr</Link>
 							</p>
 
 							<br/><br/>
@@ -383,7 +383,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 27 rue des Fontaines, 95420 Omerville</p>
 							<p className="text-[18px]">Téléphone: 06 71 05 10 08</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="la-musardine-en-vexin.com">Site Web: la-musardine-en-vexin.com</Link>
+								<Link className="underline" target="_blank" href="https://la-musardine-en-vexin.com">Site Web: la-musardine-en-vexin.com</Link>
 							</p>
 
 							<br/><br/>
@@ -415,7 +415,7 @@ export default function Page(){
 							<p className="text-[18px]">Adresse: 5 rue du Parc, 95510 Saint-Cyr-en-Arthies</p>
 							<p className="text-[18px]">Téléphone: 01 34 76 92 09</p>
 							<p className="text-[18px]">Site Web: {" "}
-								<Link className="underline" href="domainedelabucherie.com">Site Web: domainedelabucherie.com</Link>
+								<Link className="underline" target="_blank" href="https://domainedelabucherie.com">Site Web: domainedelabucherie.com</Link>
 							</p>
 
 							<br/><br/>
