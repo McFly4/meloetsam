@@ -3,7 +3,7 @@ import { Playfair_Display, Hind_Vadodara } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import ConditionalFooter from "@/components/ConditionalFooter";
-
+import { Analytics } from "@vercel/analytics/next"
 const playfairDisplay = Playfair_Display({
 	variable: "--font-playfair-display",
 	subsets: ["latin"],
@@ -31,6 +31,7 @@ export default function RootLayout({
       <body
         className={`${playfairDisplay.variable} ${hindVadodara.variable} antialiased`}
       >
+				<Analytics />
 				<Header />
         {children}
 				<ConditionalFooter />
